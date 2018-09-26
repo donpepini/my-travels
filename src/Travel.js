@@ -8,7 +8,9 @@ const Travel = ({ destination, country, photo, distance }) => (
         <p>Pays: {country}</p>
         <p>Distance: {distance}</p>
     </figcaption>
+    <br/>
   </figure>
+  
 );
 
 export default Travel;
